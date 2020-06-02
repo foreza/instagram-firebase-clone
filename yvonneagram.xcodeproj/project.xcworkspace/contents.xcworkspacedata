@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:/Users/foreza/Desktop/Projects/InstagramCLone/yvonneagram/yvonneagram/plus_photo.imageset">
+   </FileRef>
+   <FileRef
       location = "self:yvonneagram.xcodeproj">
    </FileRef>
 </Workspace>

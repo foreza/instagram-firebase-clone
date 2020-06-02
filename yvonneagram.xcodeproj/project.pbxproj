@@ -22,6 +22,7 @@
 		13E4BECF247CB0C900D1CC27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		13E4BED2247CB0C900D1CC27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		13E4BED4247CB0C900D1CC27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13E4BEDA247CE62C00D1CC27 /* plus_photo.imageset */ = {isa = PBXFileReference; lastKnownFileType = folder; name = plus_photo.imageset; path = /Users/foreza/Desktop/Projects/InstagramCLone/yvonneagram/yvonneagram/plus_photo.imageset; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +55,7 @@
 		13E4BEC7247CB0C800D1CC27 /* yvonneagram */ = {
 			isa = PBXGroup;
 			children = (
+				13E4BEDA247CE62C00D1CC27 /* plus_photo.imageset */,
 				13E4BEC8247CB0C800D1CC27 /* AppDelegate.swift */,
 				13E4BECA247CB0C800D1CC27 /* ViewController.swift */,
 				13E4BECC247CB0C800D1CC27 /* Main.storyboard */,
@@ -282,15 +284,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = L36D2F8J6M;
+				DEVELOPMENT_TEAM = WZMMZ9FP6W;
 				INFOPLIST_FILE = yvonneagram/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.foreza.kelp.yvonneagram;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -300,15 +305,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = L36D2F8J6M;
+				DEVELOPMENT_TEAM = WZMMZ9FP6W;
 				INFOPLIST_FILE = yvonneagram/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.foreza.kelp.yvonneagram;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
